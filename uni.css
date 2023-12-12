@@ -1,0 +1,13 @@
+@import url('font.css');
+@import url('_var.css');
+@import url('index.css');
+@import url('sw.css');
+@import url('swiper.css');
+@import url('res.css');
+@import url('login.css');
+@import url('signup.css');
+@import url('ver.css');
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

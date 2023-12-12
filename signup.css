@@ -1,0 +1,52 @@
+
+#login_page .fbjl form {
+    border: 0px black solid;
+}
+
+
+#login_page .fbjl .rtyy {
+    align-items: flex-start;
+}
+
+#login_page .fbjl .rtyy div {
+    border: 0px black solid;
+    margin-top: 5%;
+    height: 85%;
+}
+
+#login_page .fbjl form div .jhgs {
+    width: 96%;
+    height: 40px;
+    outline: none;
+    margin-top: 5px !important;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+#login_page .fbjl form div #redirect  {
+    width: 100%;
+    height: auto;
+    border: 0px black solid;
+    display: flex;
+    justify-content: left;
+    margin-top: 0px;
+}
+
+#login_page .fbjl form div #redirect .ghjk {
+
+    width : 50%;
+    border: 0px black solid;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#login_page .fbjl form div #redirect  div {
+
+    width : 50%;
+    border: 0px black solid;
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

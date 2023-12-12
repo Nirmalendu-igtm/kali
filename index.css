@@ -1,0 +1,265 @@
+@import url('uni.css');
+
+
+
+body {
+    background-color: var(--universal_BG_color);
+    overflow-x: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+header {
+    border-bottom: 0px black solid;
+    width: 101%;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+a:hover
+{
+    color: #6000FF;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    background-color: var(--universal_BG_color);
+    border-bottom: 0px black solid;
+}
+
+nav #block_1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 60px;
+    border-bottom: 0px black solid;
+}
+
+nav #block_1 #block_1_1 {
+    width: 20%;
+    height: 60px;
+}
+
+nav #block_1 #block_1_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav #block_1 #block_1_1 #block_1_1_8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 0px rgb(0, 0, 0) solid;
+}
+
+nav #block_1 #block_1_1 #block_1_1_8 svg {
+    rotate: 0deg;
+}
+
+nav #block_1 form {
+    width: 40%;
+    height: 35px;
+    border: 0px black solid;
+    background-color: rgb(254, 189, 105);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 11%;
+}
+
+nav #block_1 form input {
+    width: 93.1%;
+    height: 81.5%;
+    outline: none;
+    border: 0px green solid;
+    font-size: 14px;
+    padding-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav #block_1 form input::placeholder {
+    text-align: center;
+    font-size: 15px;
+}
+
+nav #block_1 form button {
+    width: 33px;
+    height: 33px;
+    outline: none;
+    border: 0px #000 solid;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #block_1 #block_1_3 {
+    width: 22%;
+    height: 95%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px black solid;
+}
+
+nav #block_1 #block_1_3 #account_svg {
+    width: 30px;
+    height: 30px;
+    border: 0px black solid;
+    margin-top: 10px;
+}
+
+nav #block_1 #block_1_3 #account_svg #Layer_1 {
+    width: 100%;
+    height: 100%;
+}
+
+nav #block_1 #block_1_3 #account_txt {
+    margin-left: 1%;
+    width: 35%;
+    border-right: 0px black solid;
+}
+
+nav #block_1 #block_1_3 #account_txt #account {
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav #block_1 #block_1_3 #account_txt #access {
+    display: flex;
+    font-size: 14px;
+    margin-top: 2px;
+    border: 0px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav #block_1 #block_1_3 #account_txt #access #login {
+    margin-left: 5px;
+}
+
+nav #block_1 #block_1_3 #account_txt #access #separate {
+    margin-left: 2px;
+}
+
+nav #block_1 #block_1_3 #account_txt #access #signup {
+    margin-left: 5px;
+}
+
+nav #block_1 #block_1_3 #cart {
+    margin-left: 15px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav #block_1 #block_1_3 #cart #cart_svg {
+    width: 32px;
+    height: 32px;
+    border: 0px black solid;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #block_1 #block_1_3 #cart #cart_svg svg {
+    width: 100%;
+    height: 100%;
+}
+
+nav #block_1 #block_1_3 #cart #cart_details #wishlist {
+    margin-left: 6px;
+    margin-top: 13px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px black solid;
+}
+
+nav #block_1 #block_1_3 #cart #cart_details #price {
+    margin-left: 6px;
+    font-size: 10px;
+    margin-top: 4px;
+    border: 0px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav #block_2 {
+    background-color: transparent;
+}
+
+nav #block_2 ul {
+    width: 100%;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    border: 0px rgb(255, 0, 0) solid;
+    margin-top: 29px;
+    background-color: var(--universal_BG_color)fff;
+}
+
+nav #block_2 ul li {
+    width: auto;
+    height: 30px;
+    border: 0px rgb(0, 0, 0) solid;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+nav #block_2 ul li a {
+    text-decoration: none;
+
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav #block_2 ul #marchent {
+    display: flex;
+    border: 0px black solid;
+}
+
+nav #block_2 ul #marchent #Layer_55 {
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 5px;
+    margin-top: -10px;
+}
+
+
+#x50 {
+    height: 5px;
+    width: 101%;
+    background-color: var(--universal_BG_color);
+}
+
+main {
+    height: 500px;
+    width: 101%;
+    background-color: var(--universal_BG_color);
+    padding-top: 25px;
+    border: 1px red solid;
+    margin-top: 5px;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #000;
+
+}
